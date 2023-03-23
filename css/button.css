@@ -1,0 +1,30 @@
+.button {
+  padding: var(--btn-padding);
+  font-weight: var(--btn-font-weight);
+  font-family: var(--btn-font-family);
+  font-size: var(--btn-font-size);
+  line-height: var(--btn-mobile-line-height);
+  letter-spacing: var(--btn-mobile-letter-spacing);
+  padding: var(--btn-padding);
+  color: var(--btn-text-primary-color);
+  border-radius: var(--btn-border-radius);
+  -webkit-border-radius: var(--btn-border-radius);
+  -moz-border-radius: var(--btn-border-radius);
+  -ms-border-radius: var(--btn-border-radius);
+  -o-border-radius: var(--btn-border-radius);
+  border: 2px solid #d5b665;
+}
+
+.button-main {
+  background-color: var(--btn-bg-primary-color);
+}
+
+.button-header {
+  background-color: none;
+  color: var(--btn-text-minor-color);
+}
+
+.button-about-us {
+  background-color: var(--btn-bg-minor-color);
+  border: 2px solid var(--btn-bg-minor-color);
+}
