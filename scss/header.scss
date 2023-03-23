@@ -74,15 +74,6 @@
       padding: 25px;
     }
 
-    .h6-title {
-      font-family: var(--h6-title-font-family);
-      color: var(--h6-text-color);
-      font-size: var(--h6-title-size-mobile);
-      line-height: var(--h6-title-mobile-line-height);
-      letter-spacing: var(--h6-title-mobile-letter-spacing);
-      font-weight: var(--h6-title-font-weight);
-    }
-
     .attainment-separator {
       width: 60px;
       outline: none;
@@ -99,8 +90,6 @@
     }
   }
 }
-
-
 
 @media (max-width: 990px) {
   body.lock {

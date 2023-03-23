@@ -65,14 +65,6 @@
   background-color: var(--bg-attainment-color);
   padding: 25px;
 }
-.header-attainment .h6-title {
-  font-family: var(--h6-title-font-family);
-  color: var(--h6-text-color);
-  font-size: var(--h6-title-size-mobile);
-  line-height: var(--h6-title-mobile-line-height);
-  letter-spacing: var(--h6-title-mobile-letter-spacing);
-  font-weight: var(--h6-title-font-weight);
-}
 .header-attainment .attainment-separator {
   width: 60px;
   outline: none;
