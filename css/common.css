@@ -27,6 +27,7 @@
   --btn-padding: 15px 20px;
   --btn-text-primary-color: #fff;
   --btn-text-minor-color: #d5b665;
+  --btn-text-second-minor-color: #134a56;
   --btn-bg-primary-color: #d5b665;
   --btn-bg-minor-color: #134a56;
   --bg-attainment-color: #fff;
@@ -66,15 +67,22 @@
   --description-text-mobile-line-height: 1.7;
   --description-text-mobile-letter-spacing: calc(0 * 1em);
   --description-text-font-weight: 400;
-  --description-text-text-color: #6f7779;
+  --description-text-color: #6f7779;
   --about-us-item-text-color: #29626e;
-  --year-number-text-size-mobile: 30px;
-  --year-number-text-font-family: "Amiri", serif;
-  --year-number-text-mobile-line-height: 1.2;
-  --year-number-text-mobile-letter-spacing: calc(0 * 1em);
-  --year-number-text-font-weight: 400;
-  --year-number-text-text-color: #134a56;
   --facilities-img-bg-color: #fbf8ef;
+  --facilities-text-size-mobile: 30px;
+  --facilities-text-font-family: "Amiri", serif;
+  --facilities-text-mobile-line-height: 1.2;
+  --facilities-text-mobile-letter-spacing: calc(0 * 1em);
+  --facilities-text-font-weight: 400;
+  --facilities-text-color: #134a56;
+  --join-our-club-now-bg-color: #134a56;
+  --join-our-club-now-text: #fff;
+  --join-our-club-now-span-color: #d5ae6b;
+  --features-bg-color: #fbf8ef;
+  --experience-bg-color: #134a56;
+  --experience-text-color: #fff;
+  --amenities-bg-color: #fbf8ef;
 }
 
 * {
@@ -118,7 +126,8 @@ img {
   color: var(--text-color-white);
 }
 
-.attainment-img, .facilities-img-wrapper {
+.attainment-img,
+.facilities-img-wrapper {
   width: 50px;
   height: 50px;
 }
@@ -151,11 +160,21 @@ img {
   font-weight: var(--bold-subtitle-font-weight);
 }
 
-.description-text, .about-us-item {
+.description-text,
+.about-us-item {
   font-family: var(--description-text-font-family);
-  color: var(--description-text-text-color);
+  color: var(--description-text-color);
   font-size: var(--description-text-size-mobile);
   line-height: var(--description-text-mobile-line-height);
   letter-spacing: var(--description-text-mobile-letter-spacing);
   font-weight: var(--description-text-font-weight);
+}
+
+.smallest-text {
+  font-family: var(--smallest-font-family);
+  color: var(--smallest-text-color);
+  font-size: var(--smallest-size-mobile);
+  line-height: var(--smallest-mobile-line-height);
+  letter-spacing: var(--smallest-mobile-letter-spacing);
+  font-weight: var(--smallest-font-weight);
 }

@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 45px;
+    margin: 0 auto;
   }
 
   &-description {
@@ -47,9 +48,9 @@
 
   &-years {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 50px;
-    align-items: flex-start;
+    justify-content: space-between;
 
     .year-wrapper {
       display: flex;
@@ -73,7 +74,16 @@
       -moz-transform: translate(45%, 45%);
       -ms-transform: translate(45%, 45%);
       -o-transform: translate(45%, 45%);
-}
+    }
+
+    .year-number {
+      font-family: var(--facilities-text-font-family);
+      color: var(--facilities-text-color);
+      font-size: var(--facilities-text-size-mobile);
+      line-height: var(--facilities-text-mobile-line-height);
+      letter-spacing: var(--facilities-text-mobile-letter-spacing);
+      font-weight: var(--facilities-text-font-weight);
+    }
   }
 }
 

@@ -1,0 +1,19 @@
+.amenities {
+  padding: 90px 0;
+  background-color: var(--amenities-bg-color);
+
+  &-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  &-links-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  &-img {
+    padding: 90px 0 0;
+  }
+}

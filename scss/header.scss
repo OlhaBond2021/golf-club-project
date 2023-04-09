@@ -1,3 +1,12 @@
+@mixin smallest-text {
+  font-family: var(--smallest-font-family);
+  color: var(--smallest-text-color);
+  font-size: var(--smallest-size-mobile);
+  line-height: var(--smallest-mobile-line-height);
+  letter-spacing: var(--smallest-mobile-letter-spacing);
+  font-weight: var(--smallest-font-weight);
+}
+
 .header {
   background-image: url(../image/header/main-bg.png);
   background-repeat: no-repeat;
@@ -78,15 +87,6 @@
       width: 60px;
       outline: none;
       border: 1.5px solid #d5b665;
-    }
-
-    .attainment-text {
-      font-family: var(--smallest-font-family);
-      color: var(--smallest-text-color);
-      font-size: var(--smallest-size-mobile);
-      line-height: var(--smallest-mobile-line-height);
-      letter-spacing: var(--smallest-mobile-letter-spacing);
-      font-weight: var(--smallest-font-weight);
     }
   }
 }

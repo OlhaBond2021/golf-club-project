@@ -1,0 +1,21 @@
+.join-our-club-now {
+  background-color: var(--join-our-club-now-bg-color);
+  padding: 60px 0;
+}
+.join-our-club-now-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.join-our-club-now-text, .join-our-club-now-text-italic {
+  color: var(--join-our-club-now-text);
+}
+.join-our-club-now-span {
+  color: var(--join-our-club-now-span-color);
+}
+.join-our-club-now-text-italic {
+  font-style: italic;
+  max-width: 470px;
+}
