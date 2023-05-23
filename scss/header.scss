@@ -1,12 +1,3 @@
-@mixin smallest-text {
-  font-family: var(--smallest-font-family);
-  color: var(--smallest-text-color);
-  font-size: var(--smallest-size-mobile);
-  line-height: var(--smallest-mobile-line-height);
-  letter-spacing: var(--smallest-mobile-letter-spacing);
-  font-weight: var(--smallest-font-weight);
-}
-
 .header {
   background-image: url(../image/header/main-bg.png);
   background-repeat: no-repeat;
@@ -91,6 +82,12 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .header-attainment {
+    flex-wrap: nowrap;
+  }
+}
+
 @media (max-width: 990px) {
   body.lock {
     overflow: hidden;
@@ -138,6 +135,15 @@
 
   .header-nav-list {
     padding-top: 80px;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .header-attainment {
+    .attainment-item {
+      max-width: 250px;
+    }
   }
 
 }

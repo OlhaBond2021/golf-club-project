@@ -1,0 +1,95 @@
+.top-players {
+  padding: 90px 0;
+}
+.top-players-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.top-players-wrapper .slider {
+  position: relative;
+}
+.top-players-wrapper .slider .slick-slide {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 100%;
+  flex: 30%;
+}
+.top-players-wrapper .slider-img {
+  max-height: 435px;
+}
+.top-players-wrapper .slick-list {
+  overflow: hidden;
+}
+.top-players-wrapper .slick-track {
+  display: flex;
+}
+.top-players-wrapper .slick-arrow {
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  background-color: var(--slick-slider-arrow-color);
+  border: 1px solid var(--slick-slider-arrow-color);
+  -webkit-border: 1px solid var(--slick-slider-arrow-color);
+  -moz-border: 1px solid var(--slick-slider-arrow-color);
+  -ms-border: 1px solid var(--slick-slider-arrow-color);
+  -o-border: 1px solid var(--slick-slider-arrow-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.top-players-wrapper .slick-arrow::after, .top-players-wrapper .slick-arrow::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  border: 1px solid #fff;
+}
+.top-players-wrapper .slick-next {
+  right: 0;
+}
+.top-players-wrapper .slick-next::after, .top-players-wrapper .slick-next::before {
+  left: 35%;
+  top: 33%;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+}
+.top-players-wrapper .slick-next::before {
+  left: 35%;
+  top: 57%;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+}
+.top-players-wrapper .slick-prev {
+  left: 0;
+}
+.top-players-wrapper .slick-prev::after, .top-players-wrapper .slick-prev::before {
+  left: 30%;
+  top: 33%;
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+  -moz-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  -o-transform: rotate(315deg);
+}
+.top-players-wrapper .slick-prev::before {
+  left: 30%;
+  top: 57%;
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+}
