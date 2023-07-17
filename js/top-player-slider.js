@@ -3,8 +3,8 @@ $(document).ready(function () {
     dots: false,
     slidesToShow: 3,
     slidesToScroll: 1,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
+    autoplay: true,
+    autoplaySpeed: 3000,
     lazyLoad: 'ondemand',
     responsive: [
       {

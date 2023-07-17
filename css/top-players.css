@@ -14,17 +14,21 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
-  height: 100%;
-  flex: 30%;
+  min-height: 100%;
 }
 .top-players-wrapper .slider-img {
   max-height: 435px;
+  height: 100%;
+  object-fit: cover;
 }
 .top-players-wrapper .slick-list {
   overflow: hidden;
 }
 .top-players-wrapper .slick-track {
   display: flex;
+}
+.top-players-wrapper .slick-slide {
+  max-width: 375px;
 }
 .top-players-wrapper .slick-arrow {
   position: absolute;
@@ -33,12 +37,8 @@
   font-size: 0;
   width: 20px;
   height: 20px;
-  background-color: var(--slick-slider-arrow-color);
-  border: 1px solid var(--slick-slider-arrow-color);
-  -webkit-border: 1px solid var(--slick-slider-arrow-color);
-  -moz-border: 1px solid var(--slick-slider-arrow-color);
-  -ms-border: 1px solid var(--slick-slider-arrow-color);
-  -o-border: 1px solid var(--slick-slider-arrow-color);
+  background-color: var(--slick-slider-circle-arrow-color);
+  border: 1px solid var(--slick-slider-circle-arrow-color);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
