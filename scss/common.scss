@@ -2,6 +2,8 @@
   font-family: 'Amiri', serif;
   font-family: 'SourceSansPro', serif;
   font-style: normal;
+
+  --section-dark-bg-color: #134a56;
   --title-font-family: 'Amiri', serif;
   --text-color-white: #fff;
   --title-size-mobile: 54px;
@@ -23,7 +25,7 @@
 
   --btn-font-weight: 600;
   --btn-font-family: 'Source Sans Pro', sans-serif;
-  --btn-border-radius: 0;
+  --btn-border-radius: 5px;
   --btn-font-size: 16px;
   --btn-mobile-line-height: 1;
   --btn-mobile-letter-spacing: calc(0 * 1em);
@@ -92,18 +94,17 @@
   --facilities-text-font-weight: 400;
   --facilities-text-color: #134a56;
 
-  --join-our-club-now-bg-color: #134a56;
   --join-our-club-now-text: #fff;
   --join-our-club-now-span-color: #d5ae6b;
 
   --features-bg-color: #fbf8ef;
 
-  --experience-bg-color: #134a56;
   --experience-text-color: #fff;
 
   --amenities-bg-color: #fbf8ef;
 
-  --slick-slider-arrow-color: #46767c;
+  --slick-slider-circle-arrow-color: #46767c;
+
 }
 
 * {
@@ -143,7 +144,7 @@ img {
   font-weight: var(--h6-title-font-weight);
 }
 
-.h6-title-white {
+.h6-title-white, .white-title-text {
   color: var(--text-color-white);
 }
 

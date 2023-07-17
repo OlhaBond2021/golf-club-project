@@ -12,7 +12,11 @@
   -moz-border-radius: var(--btn-border-radius);
   -ms-border-radius: var(--btn-border-radius);
   -o-border-radius: var(--btn-border-radius);
-  border: 2px solid #d5b665;
+  border: 2px solid var(--btn-bg-primary-color);
+}
+
+.button:hover, .button:active {
+  box-shadow: 0px 0px 3px var(--btn-bg-primary-color);
 }
 
 .button-main {
@@ -29,7 +33,15 @@
   border: 2px solid var(--btn-bg-minor-color);
 }
 
+.button-about-us:hover, .button-about-us:active {
+  box-shadow: 0px 0px 3px var(--btn-bg-minor-color);
+}
+
 .button-features {
   border: 2px solid var(--btn-bg-minor-color);
   color: var(--btn-text-second-minor-color);
+}
+
+.button-features:hover, .button-features:active {
+  box-shadow: 0px 0px 3px var(--btn-text-second-minor-color);
 }
